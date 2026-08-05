@@ -104,6 +104,7 @@ with regression line and mean-per-bin visualization.
 ## 🗂️ Repository Structure
 
 ```
+NMA-Kay2008-semantic-RSA/
 │
 ├── README.md
 ├── requirements.txt
@@ -119,6 +120,7 @@ with regression line and mean-per-bin visualization.
 │
 └── data/
 └── README.md                      # Data download instructions
+
 ```
 
 ---
