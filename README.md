@@ -104,22 +104,21 @@ with regression line and mean-per-bin visualization.
 ## 🗂️ Repository Structure
 
 ```
-NMA-Kay2008-semantic-RSA/
 │
 ├── README.md
 ├── requirements.txt
 │
 ├── notebooks/
-│   ├── 01_load_and_explore.ipynb      # EDA و بررسی داده
-│   ├── 02_semantic_similarity.ipynb   # ساخت ماتریس شباهت معنایی
-│   └── 03_neural_rsa.ipynb            # پایپ‌لاین اصلی RSA
+│   ├── 01_load_and_explore.ipynb      # Data loading and exploration
+│   ├── 02_semantic_similarity.ipynb   # Semantic similarity matrix construction
+│   └── 03_neural_rsa.ipynb            # Main RSA pipeline
 │
-├── figures/                           # همه نمودارها
-├── results/                           # فایل‌های CSV
+├── figures/                           # All plots and visualizations
+├── results/                           # CSV result files
 │   └── rsa_weighted.csv
 │
 └── data/
-    └── README.md                      # راهنمای دانلود داده
+└── README.md                      # Data download instructions
 ```
 
 ---
